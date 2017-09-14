@@ -2,7 +2,7 @@
 require("./weixin_oop_api.php");
 
 $wx = new weixinApi();
-$xx_url = "http://1.yzc10.applinzi.com/access2.php";
+$xx_url = "https://controllerone.github.io/php/access2.php";
 $result = $wx->snsapi_userinfo($xx_url);
 print_r($result);
 ?>
